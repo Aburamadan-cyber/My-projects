@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+.container {
+    background-color: papayawhip;
+    
+}
+.marker{
+   height: 25px;
+   width: 200px;
+   background-color: blue;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+}
+.yellow {
+    background: linear-gradient(180deg, rgb(61,61,38), rgb(255,255,0), rgb(61,61,38)) ;
+}
+.cyan {
+    background: linear-gradient(180deg, #234848, #00FFFF, #234848);
+}
+.magenta {
+    background: linear-gradient(180deg, hsl(317,84%,14%), hsl(309,85%,85%), hsl(317,84%,14%))
+}
+.sleeve {
+    height: 25px;
+    width: 110px;
+    border-left-width: 10px;
+    border-left-style: double;
+    background-color: rgb(255,255,255,0.5);
+}
+.cap {
+    width: 60px;
+    height: 25px;
+}
+.cap, .sleeve {
+    display: inline-block;
+}
